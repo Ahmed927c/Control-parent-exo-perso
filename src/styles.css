@@ -1,0 +1,62 @@
+body{
+  background:#000;
+}
+
+input{
+      border : solid 4px rgb(203, 32, 180);
+      border-radius : 5px;
+      padding : 5px;
+      margin : 5px;
+      width : 200px;
+      height : 30px;
+      font-size : 15px;
+      font-family : Arial;
+      color : #000;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      animation: border 2.5s linear infinite;	
+      box-shadow: 10px 10px 10px rgba(20, 0, 0, 0.5);
+      
+    
+}
+
+
+.App_color_container{
+      background-color : #f5f5f5;
+      border : 1px solid #ccc;
+      border-radius : 5px;
+      padding : 5px;
+      margin : 5px;
+      width : 100vw;
+      height : 100vh;
+      font-size : 15px;
+      font-family : Arial;
+      color : #000;
+      position:relative;
+      
+     
+}
+
+@keyframes border {
+      0% {
+            border-color: #e91f1f;
+      }
+      20%{
+            border-color: #215bd0;
+      }
+      40%{
+            border-color: #26d566;
+      }
+      60%{
+            border-color: #826b6b;
+      }
+      80%{
+            border-color: #150515;
+      }
+      100%{
+            border-color: #e4eb2b;
+      }
+}
+  
